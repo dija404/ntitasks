@@ -30,14 +30,9 @@ session_start();
         header {
             background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url( img/bg.jpg) no-repeat center center/cover;
             height: 800px; 
-            min-height: 350px;
             display: flex;
             align-items: center;
             justify-content: center;
-        }
-        footer{
-            background-color: var(--pink-dark: #d63384);
-            height: 300px;
         }
     </style>
 </head>
@@ -70,8 +65,7 @@ session_start();
             <p class="lead text-secondary">Discover our amazing products today!</p>
         </div>
      </header>
-     <!-- <footerbg-pink text-white text-center py-3 mt-auto shadow-sm> <p >&GORG; 2024 GORG. All rights reserved.</p>
-        <p >Email: info@GORG.com | Phone: +20 155568887 </p></footerbg-pink> -->
+
 
 </body>
 </html>
